@@ -69,7 +69,7 @@ namespace PageModel
         /// </summary>
         public void OpenLoginPage()
         {
-            this.TestObject.WebDriver.Navigate().GoToUrl(PageUrl);
+            this.WebDriver.Navigate().GoToUrl(PageUrl);
             this.AssertPageLoaded();
         }
 
