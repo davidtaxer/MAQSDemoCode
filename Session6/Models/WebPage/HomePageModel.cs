@@ -15,7 +15,6 @@ namespace Models
         /// <param name="testObject">The selenium test object</param>
         public HomePageModel(ISeleniumTestObject testObject) : base(testObject)
         {
-            this.OverrideWebDriver
         }
 
         /// <summary>
