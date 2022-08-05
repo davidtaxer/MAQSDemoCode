@@ -16,8 +16,8 @@ namespace Tests
         [Test]
         public void EnterValidCredentialsTestNUnit()
         {
-            string username = "Ted";
-            string password = "123";
+            string username = "David";
+            string password = "12345";
             LoginPageModel page = new LoginPageModel(this.TestObject);
             page.OpenLoginPage();
             HomePageModel homepage = page.LoginWithValidCredentials(username, password);
